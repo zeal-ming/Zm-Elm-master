@@ -1,0 +1,38 @@
+function createPerson(name,age,sex){
+	var obj = new Object();
+
+	obj.name = name;
+	obj.age = age;
+	obj.sex = sex
+
+	return obj;
+
+}
+
+
+function Person(name,age,sex){
+	this.name = name;
+	this.age = age;
+	this.sex = sex;
+}
+
+Object o = new Object();
+
+Person.call(o,'z','23','男');
+
+
+$(this).parent().sublings().find().slideup()
+
+1
+aop{
+	
+	foo:funtion foo(){
+
+	}
+}
+
+2
+
+aop{
+	foo : 11
+}
