@@ -39,9 +39,9 @@
 //
 //            console.log('this.user',this.user);
 //        },
-//        mounted(){
-//            console.log(this.user);
-//        },
+        mounted(){
+            console.log(this.user);
+        },
         computed: {
 
             user: function () {
